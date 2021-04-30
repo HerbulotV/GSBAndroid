@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Gsb</string>
+    <string name="buttonDeconnexion">Déconnexion</string>
+    <string name="buttonRetour">Retour</string>
+    <string name="buttonAccueil">Accueil</string>
+    <string name="lib">Connexion</string>
+    <string name="msgAccueil">Bienvenue</string>
+    <string name="buttonSCR">Saisir un compte-rendu</string>
+    <string name="buttonCCR">Consulter un compte-rendu</string>
+    <string name="connexion">Se Connecter</string>
+    <string name="libSaisie">Saisie d\'un compte-rendu</string>
+    <string name="selectDate">Selectionnez la date</string>
+    <string name="titleBilan">Votre Bilan :</string>
+    <string name="inscription">Inscription</string>
+    <string name="s_enregistrer">S\'enregistrer</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="nom">Nom</string>
+
+    <string-array name="spinnerPracti">Practicien
+        <item>Practi1</item>
+        <item>Practi2</item>
+        <item>Practi3</item>
+        <item>Practi4</item>
+    </string-array>
+
+    <string-array name="spinnerIndice">NivIndice
+        <item>1 : Trés bon </item>
+        <item>2 : bon </item>
+        <item>3 : moyen</item>
+        <item>4 : mauvais</item>
+        <item>5 : horrible</item>
+    </string-array>
+
+    <string-array name="spinnerMotif">Motif
+        <item>1 : périodicité normal</item>
+        <item>2 : remontage</item>
+        <item>3 : démarcharge</item>
+    </string-array>
+</resources>

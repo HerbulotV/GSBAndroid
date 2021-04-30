@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context=".Activity_saisie">
+
+    <Button
+        android:id="@+id/buttonAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/buttonAccueil" />
+
+    <Button
+        android:id="@+id/buttonRetour"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="-3dp"
+        android:layout_toLeftOf="@id/buttonAccueil"
+        android:text="@string/buttonRetour" />
+
+    <Button
+        android:id="@+id/buttonDeconnexion"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_toRightOf="@id/buttonAccueil"
+        android:text="@string/buttonDeconnexion" />
+
+    <TextView
+        android:id="@+id/libSaisie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAccueil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/libSaisie"
+        android:textSize="28dp" />
+
+
+    <Spinner
+        android:id="@+id/spinnerPracti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/libSaisie"
+
+        android:text="Practicien"
+        android:layout_centerHorizontal="true"/>
+    <Spinner
+        android:layout_margin="20dp"
+        android:id="@+id/spinnerIndice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateSelect"
+        android:text="IndiceDeConfiance"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerMotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerIndice"
+        android:text="Motif"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            />
+
+    <TextView
+        android:id="@+id/dateSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/selectDate"
+        android:layout_below="@id/spinnerPracti"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider et enregistrer"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <EditText
+        android:id="@+id/bilanSaisie"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/txtBilan"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtBilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titleBilan"
+        android:layout_below="@id/spinnerMotif"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>
